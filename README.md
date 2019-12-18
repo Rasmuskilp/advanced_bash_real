@@ -37,5 +37,18 @@ cat word.txt | grep li
  > delicious
   $ cat words.txt | grep -v a | sort -r
   > [inverted list of words without an a]
-  
 ``
+## running process
+
+like task manager - see what processes are running
+
+- top # gives what is running real time
+- ps - snapshot of current processes
+- ps aux # gives a full list of processes
+- usually used with grep to find excatly what are you looking for
+- ps aux | grep bio
+- &
+- pid process id
+- kill [pid]
+- kill -9 [pid] --> force kill
+- sleep 120 & --> the & makes the process run in the background
